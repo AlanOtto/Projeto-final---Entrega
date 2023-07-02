@@ -1,0 +1,72 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: #ff6aa8;
+}
+  
+.card {
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffd4e8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+  
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.card button:hover {
+    background-color: #0056b3;
+}
+  
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    list-style: none;
+}
+  
+.pagination li {
+    margin: 0 4px;
+}
+  
+.pagination a {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+}
+  
+.pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+  
+.pagination .disabled a {
+    background-color: #f789bc;
+    color: #666;
+    pointer-events: none;
+}  
